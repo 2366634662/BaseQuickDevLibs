@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/white"
+	tools:context="lee.com.basedevlibs.MainActivity">
+	<com.basequickdevlibs.view.EasyStatusView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/esv_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:esv_empty="@layout/null_view"
+		app:esv_error="@layout/error_view"
+		app:esv_loading="@layout/load_view"
+		app:esv_noNet="@layout/no_network">
+
+		<include layout="@layout/refresh_loadmore"/>
+
+	</com.basequickdevlibs.view.EasyStatusView>
+
+</RelativeLayout>
