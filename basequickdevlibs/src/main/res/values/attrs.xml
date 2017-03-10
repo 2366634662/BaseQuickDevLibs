@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--多状态试图切换-->
+	<declare-styleable name="EasyStatusView">
+		<attr name="esv_loading" format="reference"/>
+		<attr name="esv_error" format="reference"/>
+		<attr name="esv_empty" format="reference"/>
+		<attr name="esv_noNet" format="reference"/>
+	</declare-styleable>
+
+</resources>
